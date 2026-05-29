@@ -14,5 +14,5 @@ while numerocerto != numerodesconhecido and chances > 0 :
     else :
         print ("na lata campeao")
 
-if chances == 0:
+if chances == 0 and numerocerto != numerodesconhecido:
     print ("poxa amigo nao foi dessa vez,acabaram suas chances")
