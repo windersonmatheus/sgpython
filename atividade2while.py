@@ -13,6 +13,8 @@ while numerocerto != numerodesconhecido and chances > 0 :
         chances -= 1
     else :
         print ("na lata campeao")
+    print ("voce tem "+ chances + " chances")
 
 if chances == 0 and numerocerto != numerodesconhecido:
     print ("poxa amigo nao foi dessa vez,acabaram suas chances")
+    print ("o numero correto era "+ numerocerto)
